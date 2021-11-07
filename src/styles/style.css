@@ -1,0 +1,109 @@
+/*--------------------The main parameters of the landing page--------------------*/
+
+/*--------------------------------------FONTS-------------------------------------*/
+
+@font-face {
+	font-family: "Neucha", sans-serif;
+	src: url("../fonts/Neucha/Neucha-Regular.ttf");
+	font-style: normal;
+	font-weight: 400;
+}
+
+/*--------------------------------------COLORS------------------------------------*/
+
+.white {
+	color: #fff;
+}
+
+.twhite {
+	color: #d7ccc0;
+}
+
+.light {
+	color: #f5f4f0;
+}
+
+.basic {
+	color: #fe8a02;
+}
+
+.bdark {
+	color: #42413c;
+}
+
+.dark {
+	color: #2a2626;
+}
+
+.tdark {
+	color: #908d8b;
+}
+
+.brown {
+	color: #b09a81;
+}
+
+.blue {
+	color: #1085c5;
+}
+
+/*------------------------------------HEADINGS------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Neucha;
+	line-height: 1.2em;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 34px;
+	font-weight: normal;
+}
+
+/*------------------------------------SECTIONS------------------------------------*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	color: #2a2626;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: block;
+	width: 1110px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*--------------------------------------BODY--------------------------------------*/
+
+/*-------------------------------------HEADER-------------------------------------*/
+
+/*--------------------------------------MAIN--------------------------------------*/
+
+/*-------------------------------------FOOTER-------------------------------------*/
