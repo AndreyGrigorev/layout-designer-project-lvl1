@@ -183,6 +183,8 @@ header div.column {
 
 /*------------------------------------SECTIONS------------------------------------*/
 
+/*---------------------ЧТО ЖЕ ЭТО ТАКОЕБ КОГНИТИВНЫЕ ИСКАЖЕНИЯ?--------------------*/
+
 .video-block {
 	display: block;
 	position: relative;
@@ -205,9 +207,81 @@ div.video-block p {
 	left: 95.5px;
 	bottom: -100px;
 	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+	z-index: 1;
 }
 
-
 /*--------------------------------------MAIN--------------------------------------*/
+
+/*---------------------------------------NAV--------------------------------------*/
+
+#navigation {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 991px;
+}
+
+.item {
+	display: block;
+	width: 350px;
+	height: 323px;
+	padding: 24px;
+	margin: 0;
+
+	background: #fff;
+}
+
+.h348 {
+	height: 348px;
+}
+
+.style-none {
+	padding: 0px;
+	background: none;
+}
+
+.mg-bottom20 {
+	margin-bottom: 20px;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 100px;
+	justify-content: space-between;
+}
+
+nav ul h2 {
+	line-height: 1;
+	margin-bottom: 40px;
+}
+
+nav a h3 {
+	color: #fe8a02;
+	margin-bottom: 16px;
+}
+
+nav ul h4 {
+	font-size: 52px;
+	font-weight: normal;
+}
+
+nav ul a {
+	color: #2a2626;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #fff;
+	background: #fe8a02;
+}
+
+nav a:hover h3 {
+	color: #fff;
+}
 
 /*-------------------------------------FOOTER-------------------------------------*/
