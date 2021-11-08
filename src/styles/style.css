@@ -4,7 +4,7 @@
 
 @font-face {
 	font-family: "Neucha";
-	src: url("/src/fonts/Neucha/Neucha-Regular.ttf");
+	src: url("../fonts/Neucha/Neucha-Regular.ttf");
 	font-style: normal;
 	font-weight: normal;
 }
