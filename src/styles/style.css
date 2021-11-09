@@ -106,8 +106,8 @@ body {
   margin: 0;
   padding: 0;
 
-  font-size: 16px;
   color: #2a2626;
+  font-size: 16px;
   font-family: "Open Sans", sans-serif;
 
   line-height: 1.6em;
@@ -125,9 +125,9 @@ body {
 }
 
 .column {
-  column-count: 2;
-
   margin-top: 0;
+
+  column-count: 2;
 
   column-gap: 30px;
 }
@@ -159,28 +159,28 @@ body {
 }
 
 .heading-for-CBS {
-  font-family: Neucha, serif;
   font-size: 24px;
+  font-family: Neucha, serif;
 }
 
 .manifestation {
   padding: 5px 10px;
 
-  column-span: all;
-
   margin-top: 100px;
   margin-bottom: 20px;
 
+  column-span: all;
+
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   font-size: 14px;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
 
 .distortion-description {
   font-weight: normal;
-  font-family: Neucha, serif;
   font-size: 34px;
+  font-family: Neucha, serif;
   font-style: normal;
   line-height: 41px;
 }
@@ -259,7 +259,7 @@ header div.column {
   background: #ea7600;
 }
 
-/*---------------------ЧТО ЖЕ ЭТО ТАКОЕБ КОГНИТИВНЫЕ ИСКАЖЕНИЯ?--------------------*/
+/* ---------------------ЧТО ЖЕ ЭТО ТАКОЕБ КОГНИТИВНЫЕ ИСКАЖЕНИЯ?-------------------- */
 
 .video-block {
   position: relative;
@@ -283,9 +283,10 @@ div.video-block p {
   bottom: -84px;
   left: 95.5px;
 
+  z-index: 1;
+
   display: block;
 
-  z-index: 1;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -317,7 +318,7 @@ div.video-block p {
 }
 
 .style-none {
-  padding: 0px;
+  padding: 0;
 
   background: none;
 }
@@ -340,6 +341,7 @@ nav ul {
 
 nav ul h2 {
   margin-bottom: 40px;
+
   font-size: 64px;
   line-height: 1;
 }
@@ -496,9 +498,9 @@ footer form button img {
 
   font-size: 14px;
   line-height: 1.6em;
-  text-align: center;
 
   padding-top: 76px;
+  text-align: center;
 }
 
 div.footer-bottom p {
