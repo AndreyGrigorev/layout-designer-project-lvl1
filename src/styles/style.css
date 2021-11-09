@@ -329,6 +329,17 @@ nav a:hover h3 {
 	min-height: 905px;
 }
 
+.img-left {
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+.bottom-block {
+	display: block;
+	width: 100%;
+}
+
 .ikea-effect-img {
 	vertical-align: middle;
 	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
