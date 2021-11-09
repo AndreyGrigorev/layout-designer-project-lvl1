@@ -3,56 +3,56 @@
 /* --------------------------------------FONTS------------------------------------- */
 
 @font-face {
-	font-weight: normal;
-	font-family: "Neucha";
-	font-style: normal;
-	src: url("../fonts/Neucha/Neucha-Regular.ttf");
+		font-weight: normal;
+		font-family: "Neucha";
+		font-style: normal;
+		src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
 /* --------------------------------------COLORS------------------------------------ */
 
 .white {
-	color: #fff;
+		color: #fff;
 }
 
 .twhite {
-	color: #d7ccc0;
+		color: #d7ccc0;
 }
 
 .light {
-	color: #f5f4f0;
+		color: #f5f4f0;
 }
 
 .basic {
-	color: #fe8a02;
+		color: #fe8a02;
 }
 
 .bdark {
-	color: #42413c;
+		color: #42413c;
 }
 
 .dark {
-	color: #2a2626;
+		color: #2a2626;
 }
 
 .tdark {
-	color: #908d8b;
+		color: #908d8b;
 }
 
 .brown {
-	color: #b09a81;
+		color: #b09a81;
 }
 
 .blue {
-	color: #1085c5;
+		color: #1085c5;
 }
 
 .bg-white {
-	background: #fff;
+		background: #fff;
 }
 
 .bg-light {
-	background: #f5f4f0;
+		background: #f5f4f0;
 }
 
 .bg-bdark {
