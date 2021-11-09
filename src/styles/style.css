@@ -176,7 +176,6 @@ body {
 	padding-bottom: 50px;
 }
 
-
 .img-left {
 	display: block;
 	float: left;
@@ -312,6 +311,7 @@ nav ul {
 }
 
 nav ul h2 {
+	font-size: 64px;
 	line-height: 1;
 	margin-bottom: 40px;
 }
