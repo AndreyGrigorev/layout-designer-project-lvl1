@@ -268,15 +268,15 @@ header div.column {
   height: 814px;
 }
 
-div.video-block h2 {
-  margin-bottom: 30px;
-}
-
 nav ul h2 {
   margin-bottom: 40px;
 
   font-size: 64px;
   line-height: 1;
+}
+
+div.video-block h2 {
+  margin-bottom: 30px;
 }
 
 div.video-block h2,
@@ -367,14 +367,13 @@ nav a:hover {
   background: #fe8a02;
 }
 
-nav a:hover h3 {
-  color: #fff;
-}
-
 footer form h3 {
   padding: 55px;
 }
 
+nav a:hover h3 {
+  color: #fff;
+}
 /* ----------------------------------ikea-effect----------------------------------- */
 
 #ikea-effect {
