@@ -107,9 +107,9 @@ body {
   padding: 0;
 
   font-size: 16px;
+  color: #2a2626;
   font-family: "Open Sans", sans-serif;
 
-  color: #2a2626;
   line-height: 1.6em;
 }
 
@@ -128,6 +128,7 @@ body {
   column-count: 2;
 
   margin-top: 0;
+
   column-gap: 30px;
 }
 
@@ -149,6 +150,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+
   content: "";
 }
 
@@ -157,26 +159,29 @@ body {
 }
 
 .heading-for-CBS {
+  font-family: Neucha, serif;
   font-size: 24px;
-  font-family: Neucha;
 }
 
 .manifestation {
-  column-span: all;
   padding: 5px 10px;
+
+  column-span: all;
+
   margin-top: 100px;
   margin-bottom: 20px;
-  font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+
   font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
   text-transform: uppercase;
 }
 
 .distortion-description {
-  font-family: Neucha;
   font-weight: normal;
-  font-style: normal;
+  font-family: Neucha, serif;
   font-size: 34px;
+  font-style: normal;
   line-height: 41px;
 }
 
@@ -188,6 +193,7 @@ body {
   display: block;
   float: left;
   margin-right: 30px;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -195,6 +201,7 @@ body {
   display: block;
   float: right;
   margin-left: 30px;
+
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
@@ -203,30 +210,33 @@ body {
   width: 100%;
 }
 
-/*--------------------------------------BODY--------------------------------------*/
+/* --------------------------------------BODY-------------------------------------- */
 
-/*-------------------------------------HEADER-------------------------------------*/
+/* -------------------------------------HEADER------------------------------------- */
 
 header {
-  display: block;
   position: relative;
+
+  display: block;
   width: 100%;
   min-height: 914px;
 }
 
 header div img {
-  display: block;
   position: absolute;
-  height: 525px;
   top: 55px;
   right: -270px;
+
+  display: block;
+  height: 525px;
 }
 
 header div h1 {
-  display: block;
   position: absolute;
   top: 100px;
   left: 0;
+
+  display: block;
 }
 
 header div.column {
@@ -234,10 +244,13 @@ header div.column {
 }
 
 .header-button {
-  display: block;
   position: absolute;
   top: 765px;
+
+  display: block;
+
   padding: 12px 24px;
+
   font-weight: bold;
   text-decoration: none;
 }
@@ -249,8 +262,9 @@ header div.column {
 /*---------------------ЧТО ЖЕ ЭТО ТАКОЕБ КОГНИТИВНЫЕ ИСКАЖЕНИЯ?--------------------*/
 
 .video-block {
-  display: block;
   position: relative;
+
+  display: block;
   width: 100%;
   height: 814px;
 }
@@ -265,21 +279,24 @@ div.video-block p {
 }
 
 .video {
-  display: block;
   position: absolute;
-  left: 95.5px;
   bottom: -84px;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  left: 95.5px;
+
+  display: block;
+
   z-index: 1;
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-/*--------------------------------------MAIN--------------------------------------*/
+/* --------------------------------------MAIN-------------------------------------- */
 
-/*---------------------------------------NAV--------------------------------------*/
+/* ---------------------------------------NAV-------------------------------------- */
 
 #navigation {
-  display: block;
   position: relative;
+
+  display: block;
   width: 100%;
   min-height: 991px;
 }
@@ -288,8 +305,9 @@ div.video-block p {
   display: block;
   width: 350px;
   height: 323px;
-  padding: 24px;
+
   margin: 0;
+  padding: 24px;
 
   background: #f5f4f0;
 }
@@ -300,6 +318,7 @@ div.video-block p {
 
 .style-none {
   padding: 0px;
+
   background: none;
 }
 
@@ -314,24 +333,26 @@ nav ul li {
 nav ul {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 100px;
+
   justify-content: space-between;
+  margin-top: 100px;
 }
 
 nav ul h2 {
+  margin-bottom: 40px;
   font-size: 64px;
   line-height: 1;
-  margin-bottom: 40px;
 }
 
 nav a h3 {
-  color: #fe8a02;
   margin-bottom: 16px;
+
+  color: #fe8a02;
 }
 
 nav ul h4 {
-  font-size: 52px;
   font-weight: normal;
+  font-size: 52px;
 }
 
 nav ul a {
@@ -341,6 +362,7 @@ nav ul a {
 
 nav a:hover {
   color: #fff;
+
   background: #fe8a02;
 }
 
@@ -348,63 +370,77 @@ nav a:hover h3 {
   color: #fff;
 }
 
-/*----------------------------------ikea-effect-----------------------------------*/
+/* ----------------------------------ikea-effect----------------------------------- */
 
 #ikea-effect {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 905px;
 }
 
-/*------------------------------premature-optimization---------------------------*/
+/* ------------------------------premature-optimization--------------------------- */
 
 #premature-optimization {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 855px;
 }
 
-/*--------------------------------distortion-of-novelty---------------------------*/
+/* --------------------------------distortion-of-novelty--------------------------- */
 
 #distortion-of-novelty {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 880px;
 }
 
-/*------------------------------premature-optimization---------------------------*/
+/* ------------------------------premature-optimization--------------------------- */
 
 #hyperbolic-depreciation {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 937px;
 }
 
-/*--------------------------------distortion-of-novelty---------------------------*/
+/* --------------------------------distortion-of-novelty--------------------------- */
 
 #errors-in-planning {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 919px;
 }
 
-/*-------------------------------------FOOTER-------------------------------------*/
+/* -------------------------------------FOOTER------------------------------------- */
 
 footer {
-  display: block;
   position: relative;
+
+  display: block;
+
   width: 100%;
   min-height: 581px;
 }
 
 .form {
-  display: block;
   position: relative;
+
+  display: block;
+
   height: 190px;
 
   background: #42413c;
@@ -417,17 +453,20 @@ footer form h3 {
 footer form input {
   width: 415px;
   height: 50px;
+
   margin: 0;
   padding: 15px;
 }
 
 footer form button {
-  display: inline;
   position: absolute;
-  left: 985px;
   top: 75px;
+  left: 985px;
+
+  display: inline;
   width: 70px;
   height: 50px;
+
   margin: 0;
 }
 
@@ -436,10 +475,13 @@ footer form button img {
 }
 
 .input-top-text {
-  display: block;
   position: relative;
-  padding-top: 40px;
+
+  display: block;
+
   margin-bottom: 9px;
+  padding-top: 40px;
+
   font-size: 18px;
 }
 
@@ -448,11 +490,14 @@ footer form button img {
 }
 
 .footer-bottom {
-  display: block;
   position: relative;
+
+  display: block;
+
   font-size: 14px;
-  text-align: center;
   line-height: 1.6em;
+  text-align: center;
+
   padding-top: 76px;
 }
 
