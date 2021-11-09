@@ -176,6 +176,19 @@ body {
 	padding-bottom: 50px;
 }
 
+
+.img-left {
+	display: block;
+	float: left;
+	margin-right: 30px;
+	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
+.bottom-block {
+	display: block;
+	width: 100%;
+}
+
 /*--------------------------------------BODY--------------------------------------*/
 
 /*-------------------------------------HEADER-------------------------------------*/
@@ -329,22 +342,6 @@ nav a:hover h3 {
 	min-height: 905px;
 }
 
-.img-left {
-	display: block;
-	float: left;
-	margin-right: 30px;
-}
-
-.bottom-block {
-	display: block;
-	width: 100%;
-}
-
-.ikea-effect-img {
-	vertical-align: middle;
-	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 /*------------------------------premature-optimization---------------------------*/
 
 #premature-optimization {
@@ -352,11 +349,6 @@ nav a:hover h3 {
 	position: relative;
 	width: 100%;
 	min-height: 855px;
-}
-
-.premature-optimization-img {
-	vertical-align: middle;
-	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /*--------------------------------distortion-of-novelty---------------------------*/
@@ -368,11 +360,6 @@ nav a:hover h3 {
 	min-height: 880px;
 }
 
-.distortion-of-novelty-img {
-	vertical-align: middle;
-	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 /*------------------------------premature-optimization---------------------------*/
 
 #hyperbolic-depreciation {
@@ -382,11 +369,6 @@ nav a:hover h3 {
 	min-height: 937px;
 }
 
-.hyperbolic-depreciation-img {
-	vertical-align: middle;
-	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-}
-
 /*--------------------------------distortion-of-novelty---------------------------*/
 
 #errors-in-planning {
@@ -394,11 +376,6 @@ nav a:hover h3 {
 	position: relative;
 	width: 100%;
 	min-height: 919px;
-}
-
-.errors-in-planning-img {
-	vertical-align: middle;
-	filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /*-------------------------------------FOOTER-------------------------------------*/
