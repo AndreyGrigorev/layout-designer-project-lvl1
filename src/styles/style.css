@@ -164,17 +164,16 @@ body {
 }
 
 .manifestation {
-  padding: 5px 10px;
-
   margin-top: 100px;
   margin-bottom: 20px;
-
-  column-span: all;
+  padding: 5px 10px;
 
   font-weight: bold;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+
+  column-span: all;
 }
 
 .distortion-description {
@@ -495,11 +494,12 @@ footer form button img {
   position: relative;
 
   display: block;
+  padding-top: 76px;
 
   font-size: 14px;
   line-height: 1.6em;
 
-  padding-top: 76px;
+
   text-align: center;
 }
 
